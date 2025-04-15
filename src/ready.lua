@@ -21,3 +21,6 @@ end)
 game.OnControlPressed({'Gift', function()
 	return trigger_Gift()
 end})
+modutil.LoadOnce(function ()
+    RerollCosts["Hammer"] = 1
+end)
