@@ -1,0 +1,7 @@
+{
+    "Lua.workspace.library": [
+        "Content/Scripts/",
+        "Mods/"
+    ],
+    "Lua.workspace.preloadFileSize": 3000
+}

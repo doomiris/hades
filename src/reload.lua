@@ -23,7 +23,4 @@ function trigger_Gift()
 	modutil.mod.Hades.PrintOverhead(config.message)
 end
 
-function Reroll_Hammer()
-	modutil.mod.Hades.PrintOverhead("hammmmmmmmmmmmmmmmmmmmmmmmmmmmer")
-	RerollCosts["Hammer"] = 1
-end
+modutil.mod.RerollCosts.Hammer = 1
